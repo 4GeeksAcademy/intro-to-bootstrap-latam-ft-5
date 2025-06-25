@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <header class="container mb-3">
+        <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://picsum.photos/id/666/900/400" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://picsum.photos/id/456/900/400" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://picsum.photos/id/320/900/400" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </header>
+
+    <main class="container mb-3">
+        <div class="row">
+            <div class="col-md-4 col-sm-6">
+                <div class="card">
+                    <img src="https://picsum.photos/id/666/900/400" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text text-1">Some quick example text to build on the card title and make up the bulk of
+                            the card’s content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="card">
+                    <img src="https://picsum.photos/id/456/900/400" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text text-2">Some quick example text to build on the card title and make up the bulk of
+                            the card’s content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="card borde-rojo">
+                    <img src="https://picsum.photos/id/320/900/400" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text text-3">Some quick example text to build on the card title and make up the bulk of
+                            the card’s content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+
+
+
+
+
+    <!-- <div class="sticky-top mb-3 text-bg-primary p-5 justify-content-between d-flex">
+        <p>contenido 1</p>
+        <p>contenido 2</p>
+        <p>contenido 3</p>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-sm-12">
+                <p class="texto-noticias">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas nihil doloribus quas iure alias,
+                    possimus, nesciunt praesentium doloremque, provident neque a sed facilis assumenda consequuntur
+                    repellendus quis! Cum, voluptate adipisci.</p>
+                <div class="mi-estilo">
+
+                </div>
+            </div>
+            <div class="col-md-8 col-sm-12">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, itaque praesentium numquam nesciunt at
+                    voluptas commodi reiciendis distinctio. Ea expedita voluptatum, optio praesentium deleniti esse
+                    explicabo facere soluta minima? Aspernatur?</p>
+            </div>
+            <div class="col-md-12">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa libero aut praesentium possimus odit
+                    cum cumque nisi quasi nulla expedita exercitationem, vero quas veniam, vitae quia quae pariatur?
+                    Iusto, porro?</p>
+            </div>
+            <div class="col-md-5">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa libero aut praesentium possimus odit
+                    cum cumque nisi quasi nulla expedita exercitationem, vero quas veniam, vitae quia quae pariatur?
+                    Iusto, porro?</p>
+            </div>
+            <div class="col-md-7">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa libero aut praesentium possimus odit
+                    cum cumque nisi quasi nulla expedita exercitationem, vero quas veniam, vitae quia quae pariatur?
+                    Iusto, porro?</p>
+            </div>
+            <div class="col-md-9">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa libero aut praesentium possimus odit
+                    cum cumque nisi quasi nulla expedita exercitationem, vero quas veniam, vitae quia quae pariatur?
+                    Iusto, porro?</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-sm-12">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas nihil doloribus quas iure alias,
+                    possimus, nesciunt praesentium doloremque, provident neque a sed facilis assumenda consequuntur
+                    repellendus quis! Cum, voluptate adipisci.</p>
+            </div>
+            <div class="col-md-8 col-sm-12">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, itaque praesentium numquam nesciunt at
+                    voluptas commodi reiciendis distinctio. Ea expedita voluptatum, optio praesentium deleniti esse
+                    explicabo facere soluta minima? Aspernatur?</p>
+            </div>
+            <div class="col-md-12">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa libero aut praesentium possimus odit
+                    cum cumque nisi quasi nulla expedita exercitationem, vero quas veniam, vitae quia quae pariatur?
+                    Iusto, porro?</p>
+            </div>
+            <div class="col-md-5">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa libero aut praesentium possimus odit
+                    cum cumque nisi quasi nulla expedita exercitationem, vero quas veniam, vitae quia quae pariatur?
+                    Iusto, porro?</p>
+            </div>
+            <div class="col-md-7">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa libero aut praesentium possimus odit
+                    cum cumque nisi quasi nulla expedita exercitationem, vero quas veniam, vitae quia quae pariatur?
+                    Iusto, porro?</p>
+            </div>
+            <div class="col-md-9">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa libero aut praesentium possimus odit
+                    cum cumque nisi quasi nulla expedita exercitationem, vero quas veniam, vitae quia quae pariatur?
+                    Iusto, porro?</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="m-5 p-4 border border-2">
+        contenido
+    </div>
+
+    <div class="d-flex flex-row mb-3">
+        <div class="p-2">Flex item 1</div>
+        <div class="p-2">Flex item 2</div>
+        <div class="p-2">Flex item 3</div>
+    </div>
+    <div class="d-flex flex-row-reverse">
+        <div class="p-2">Flex item 1</div>
+        <div class="p-2">Flex item 2</div>
+        <div class="p-2">Flex item 3</div>
+    </div>
+
+ -->
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
